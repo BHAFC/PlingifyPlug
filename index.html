@@ -3,54 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<div class="w3-sidebar w3-bar-block w3-collapse w3-card" style="width:200px;" id="mySidebar">
-
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/jpeg;base64,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">
+    <title>PlingifyPlug</title>
 </head>
 <body>
-    <div class="sidebar">
-        <center>
-        <font style="font-family: Arial;"> 
-        <h2 style="color: #fff;"> PlingifyPlug</h2>
-        <font color="#fff">    <h3>  Info & Contact </h3>  </font>
-        <button onclick="window.location.href='https://bhafc.github.io/PlingifyPlugLoadingJCHI/';" class="btn">
-          <span class="btn-text-one">SignIn</span>
-          <span class="btn-text-two">Click Here!</span>
+  <div class="sidebar">
+   
+    <font style="font-family: Arial;"> 
+    <h2 style="color: #fff;"> PlingifyPlug</h2>
+    <font color="#fff">    <h3>  Info & Contact </h3>  </font>
+    <button onclick="window.location.href='https://bhafc.github.io/PlingifyPlugLoadingJCHI/';" class="btn">
+      <span class="btn-text-one">SignIn</span>
+      <span class="btn-text-two">Click Here!</span>
+  </button>
+  <h6>‎</h6>
+  <button onclick="window.location.href='https://bhafc.github.io/PlingifyPlugLoadingJCHI/';" class="btn">
+      <span class="btn-text-one">Register</span>
+      <span class="btn-text-two">Click Here!</span>
+  </button>  
+  <font color="#fff">    <h3>  Info & Contact </h3>  </font>
+   <button onclick="window.location.href='https://bhafc.github.io/PlingifyplugV2JCHILoading-/';" class="btn">
+      <span class="btn-text-one">Contact</span>
+      <span class="btn-text-two">Click Here!</span>
+  </button>
+  <h6>‎</h6>
+  <button onclick="window.location.href='https://bhafc.github.io/PlingifyplugV2JCHILoading-/';" class="btn">
+      <span class="btn-text-one">More Infomation</span>
+      <span class="btn-text-two">Click Here!</span>
       </button>
-      <h6>‎</h6>
-      <button onclick="window.location.href='https://bhafc.github.io/PlingifyPlugLoadingJCHI/';" class="btn">
-          <span class="btn-text-one">Register</span>
-          <span class="btn-text-two">Click Here!</span>
-      </button>  
-      <font color="#fff">    <h3>  Info & Contact </h3>  </font>
-       <button onclick="window.location.href='https://bhafc.github.io/PlingifyplugV2JCHILoading-/';" class="btn">
-          <span class="btn-text-one">Contact</span>
-          <span class="btn-text-two">Click Here!</span>
-      </button>
-      <h6>‎</h6>
-      <button onclick="window.location.href='https://bhafc.github.io/PlingifyplugV2JCHILoading-/';" class="btn">
-          <span class="btn-text-one">More Infomation</span>
-          <span class="btn-text-two">Click Here!</span>
-          </button>
-          <font color="#fff">    <h3> Other </h3>  </font>
-      <button onclick="window.location.href='https://bhafc.github.io/PlingifyPlugLoadingRJCHI/';" class="btn"> 
-        <span class="btn-text-one">Site Recomendations</span>
-            <span class="btn-text-two">Click Here!</span>
-      </button>
-    </center>
-      </font>
-        </div>
-        
-      
+      <font color="#fff">    <h3> Other </h3>  </font>
+  <button onclick="window.location.href='https://bhafc.github.io/PlingifyPlugLoadingRJCHI/';" class="btn"> 
+    <span class="btn-text-one">Site Recomendations</span>
+        <span class="btn-text-two">Click Here!</span>
+  </button>
 
-
-
-     <font style="font-family: Arial;">  <font style="color: rgb(98, 36, 156);"> <h1 style="text-align: right;">  Welcome to PlingifyPlug </h1> 
-          
-     <font style="color: rgb(98, 36, 156);"> <h2  style="text-align: right;">  Infomation:   </h2>
+  </font>
+    </div>
+         
 <div class="box">
-    <font style="color: rgb(98, 36, 156);"> <h4 style="text-align: right;">  BETA APP-Please check your emails to see if there has been an update or a link to download updated version! PlingifyPlug, what is it? PlingifyPlug is a redirection center. If you want to download anything or veiw the site without knowing the URL only the name use this site! Once we make our subscripions we will have 10 free sites and then if you buy our premium plan it will cost £0.50 a month. £2.00 for six months or £4.00 a year. We are not held responiable if you lose your product key or forget it. We will offer no refunds. </h4> </center> </font>
-</div>
+
+  <center><font style="color: #fff;"> <h1 style="font-family: Arial;">Welcome to PlingifyPlug</h1></center>      
+
+        <center><font style="color: #fff;"> <h3  style="font-family: Arial;">  Infomation:   </h3>
+
+          <center><fontstyle="color: #fff;"> <p  style="font-family: Arial;">  BETA APP-Please check your emails to see if there has been an update or a link to download updated version! PlingifyPlug, what is it? PlingifyPlug is a redirection center. If you want to download anything or veiw the site without knowing the URL only the name use this site! Once we make our subscripions we will have 10 free sites and then if you buy our premium plan it will cost £0.50 a month. £2.00 for six months or £4.00 a year. We are not held responiable if you lose your product key or forget it. We will offer no refunds. </p> </center></font>
+        </font>
+          <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Searth the internet..." type="text" name="text" class="input">
+
+          <ul id="myUL">
+            <li><a href="https://www.spotify.com/uk/download/windows/">Spotify Download</a></li>
+            <li><a href="https://www.blackmagicdesign.com/products/davinciresolve/">Davinci Resolve Download</a></li>
+          
+            <li><a href="https://code.visualstudio.com/docs/?dv=win">VSCode Download</a></li>
+            <li><a href="https://www.python.org/downloads/">Python Download</a></li>
+          
+            <li><a href="https://open.spotify.com/?">Spotify-Link</a></li>
+            <li><a href="#https://www.blackmagicdesign.com/products/davinciresolve/>Davinci Resolve-Link</a></li>
+            <li><a href="https://code.visualstudio.com/">VSCode link</a></li>
+        
+            <li><a href="https://code.visualstudio.com/docs/languages/python">VSCodeAddons-Link</a></li>
+            <li><a href="https://www.python.org/">Python-Link</a></li>
+            <li><a href="https://bhafc.github.io/Contact-Infomation/">Contact Our IT Team To Request A Site In The Contact Button At The Top of page</a></li>
+          </ul></font>
+        
+        </center>
+       
+           </div>
 
 </body>
 <style>
@@ -58,8 +77,147 @@
 .box{
 width: 1000px;
 text-align: right;
-border-left: 465px solid;
+border-left: 300px ;
 border-color: #fff;
+padding-left: 270px;
+}
+
+
+
+
+
+
+.input {
+  width: 100%;
+  max-width: 500px;
+  height: 25px;
+  padding: 12px;
+  border-radius: 12px;
+  outline: none;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  box-shadow: 0px 0px 20px -18px;
+}
+
+.input:hover {
+  border: 2px solid lightgrey;
+  box-shadow: 0px 0px 20px -17px;
+}
+
+.input:active {
+  transform: scale(0.95);
+}
+
+.input:focus {
+  border: 2px solid grey;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 95.5%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ffffff; /* Add a grey border */
+  margin-bottom: 10px; /* Add some space below the input */
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border-radius: 12px;
+  border: 1px solid #000000; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #ffffff; /* Grey background color */
+  padding: 5px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: rgb(7, 0, 0); /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #ffffffce; /* Add a hover effect to all links, except for headers */
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+*{
+margin:1px;
+padding: 0px;
+text-decoration: none;
+}
+body{
+box-sizing: border-box;
+}
+.sidebar{
+position: fixed;
+background: #0d1563;
+width: 215px;
+height: 100%;
+top: 0;
+left: 0;
+z-index: 1; }
+
+.sidebar h1{
+text-align: center;
+font-size: 20px;
+text-transform: uppercase;
+padding: 15px;
+background: grey;
+}
+
+.sidebar ul li{
+margin: 25px 0;
+}
+
+.sidebar ul li a{
+color: rgb(165, 32, 32);
+padding: 0 30px;
+}
+
+.content{
+margin-left: 210px ;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
 .btn {
@@ -107,42 +265,119 @@ border-color: #fff;
   top: 50%;
 }
 
-    *{
-margin:1px;
-padding: 0px;
-text-decoration: none;
-}
-body{
-box-sizing: border-box;
-}
-.sidebar{
-position: fixed;
-background: rgb(98, 36, 156);
-width: 215px;
-height: 100%;
-top: 0;
-left: 0;
-z-index: 1; }
 
-.sidebar h1{
-text-align: center;
-font-size: 20px;
-text-transform: uppercase;
-padding: 15px;
-background: grey;
-}
+    
+    body {
+        height: 1000px;
+        background: linear-gradient(#0d1563, #b61111ce);
+      }
 
-.sidebar ul li{
-margin: 25px 0;
-}
 
-.sidebar ul li a{
-color: rgb(165, 32, 32);
-padding: 0 30px;
-}
 
-.content{
-margin-left: 210px ;
-}
 </style>
+
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.display = "block";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.display = "none";
+  }
+  </script>
+
+
+<script>
+
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+    
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+    
+    </script>
+    
+    <script>
+    
+      function myFunction() {
+        // Declare variables
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById('myInput');
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName('li');
+      
+        // Loop through all list items, and hide those who don't match the search query
+        for (i = 0; i < li.length; i++) {
+          a = li[i].getElementsByTagName("a")[0];
+          txtValue = a.textContent || a.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+          } else {
+            li[i].style.display = "none";
+          }
+        }
+      }
+      </script>
+    
+    <SCRIPT language=JavaScript>
+
+
+
+    
+      <!-- http://www.spacegun.co.uk -->
+      
+      var message = "function disabled";
+      
+      function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+      
+      if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+      
+      document.onmousedown = rtclickcheck;
+      
+      </SCRIPT>
+        
+      <script language="JavaScript">
+            
+             window.onload = function () {
+                 document.addEventListener("contextmenu", function (e) {
+                     e.preventDefault();
+                 }, false);
+                 document.addEventListener("keydown", function (e) {
+                     //document.onkeydown = function(e) {
+                     // "I" key
+                     if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+                         disabledEvent(e);
+                     }
+                     // "J" key
+                     if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                         disabledEvent(e);
+                     }
+                     // "S" key + macOS
+                     if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+                         disabledEvent(e);
+                     }
+                     // "U" key
+                     if (e.ctrlKey && e.keyCode == 85) {
+                         disabledEvent(e);
+                     }
+                     // "F12" key
+                     if (event.keyCode == 123) {
+                         disabledEvent(e);
+                     }
+                 }, false);
+                 function disabledEvent(e) {
+                     if (e.stopPropagation) {
+                         e.stopPropagation();
+                     } else if (window.event) {
+                         window.event.cancelBubble = true;
+                     }
+                     e.preventDefault();
+                     return false;
+                 }
+             }
+      //edit: removed ";" from last "}" because of javascript error
+      </script>
 </html>
